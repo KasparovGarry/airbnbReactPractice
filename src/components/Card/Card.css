@@ -1,0 +1,44 @@
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto; /* ADD */
+    display: flex; /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+
+.card--badge {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+}
